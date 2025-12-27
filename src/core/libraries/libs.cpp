@@ -84,13 +84,13 @@ void InitHLELibs(Core::Loader::SymbolsResolver* sym) {
     Libraries::CommonDialog::RegisterLib(sym);
     Libraries::MsgDialog::RegisterLib(sym);
     Libraries::AudioOut::RegisterLib(sym);
-    Libraries::Http::RegisterLib(sym);
+    // Libraries::Http::RegisterLib(sym);
     Libraries::Http2::RegisterLib(sym);
     Libraries::Net::RegisterLib(sym);
     Libraries::NetCtl::RegisterLib(sym);
     Libraries::SaveData::RegisterLib(sym);
     Libraries::SaveData::Dialog::RegisterLib(sym);
-    Libraries::Ssl2::RegisterLib(sym);
+    // Libraries::Ssl2::RegisterLib(sym);
     Libraries::SysModule::RegisterLib(sym);
     Libraries::Posix::RegisterLib(sym);
     Libraries::AudioIn::RegisterLib(sym);
